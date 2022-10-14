@@ -1,0 +1,10 @@
+version=4
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,pgpmode=none" \
+ https://registry.npmjs.org/rc https://registry.npmjs.org/rc/-/rc-([\d\.]+)@ARCHIVE_EXT@
+
+#opts=\
+#dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+#filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-rc-$1.tar.gz/ \
+# https://github.com/dominictarr/rc/tags .*/archive/v?([\d\.]+).tar.gz

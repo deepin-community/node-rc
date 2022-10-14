@@ -1,0 +1,39 @@
+node-rc (1.2.8-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * debian/watch: use npm registry since tags are missing
+  * New upstream version 1.2.8
+  * Remove useless patch
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 08 Mar 2020 19:28:06 +0100
+
+node-rc (1.1.6-2) unstable; urgency=medium
+
+  * Remove useless debian/tests/require file
+  * Use test target in Test-Command
+
+ -- Jérémy Lal <kapouer@melix.org>  Mon, 11 Apr 2016 23:37:24 +0200
+
+node-rc (1.1.6-1) unstable; urgency=medium
+
+  * Initial release (Closes: #820515)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 09 Apr 2016 12:37:06 +0200
